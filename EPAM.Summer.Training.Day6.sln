@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProj", "BookProj\BookProj.csproj", "{BAA446B7-929B-4D7C-AF66-16D6D8CBAC79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookProjTests", "BookProjTests\BookProjTests.csproj", "{A3CA74DD-48E2-422C-8507-150F8517995B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAA446B7-929B-4D7C-AF66-16D6D8CBAC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA446B7-929B-4D7C-AF66-16D6D8CBAC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA446B7-929B-4D7C-AF66-16D6D8CBAC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA446B7-929B-4D7C-AF66-16D6D8CBAC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3CA74DD-48E2-422C-8507-150F8517995B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3CA74DD-48E2-422C-8507-150F8517995B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3CA74DD-48E2-422C-8507-150F8517995B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3CA74DD-48E2-422C-8507-150F8517995B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
