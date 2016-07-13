@@ -5,6 +5,9 @@ using System.Diagnostics;
 
 namespace BookProjTests
 {
+  /// <summary>
+  /// Class for book tests
+  /// </summary>
   [TestClass]
   public class BookTests
   {
@@ -13,6 +16,9 @@ namespace BookProjTests
     public Book[] sortedByTitleArr;
     public Book[] sortedByPageCountArr;
 
+    /// <summary>
+    /// initialising method
+    /// </summary>
     [TestInitialize]
     public void Init()
     {
@@ -24,6 +30,9 @@ namespace BookProjTests
       sortedByPageCountArr = new Book[] { goldenBook, warAndPeace };
     }
 
+    /// <summary>
+    /// Sort test. sorting of array by Array.Sort uses interface method CompareTo
+    /// </summary>
     [TestMethod]
     public void InterfaceSort()
     {
@@ -44,6 +53,9 @@ namespace BookProjTests
       CollectionAssert.AreEqual(arr, sortedByCostArr);
     }
 
+    /// <summary>
+    /// Tests overloaded Array.Sort uses PageCountComparer Compare
+    /// </summary>
     [TestMethod]
     public void SortTest()
     {
@@ -65,6 +77,9 @@ namespace BookProjTests
       CollectionAssert.AreEqual(arr, sortedByPageCountArr);
     }
 
+    /// <summary>
+    /// Tests overloaded Array.Sort uses TitleComparer Compare
+    /// </summary>
     [TestMethod]
     public void TitleSortTest()
     {
